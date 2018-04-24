@@ -7,4 +7,5 @@ Goal: Develop a bot to checkout clothing items from supreme's website by keyword
 ### install selenium with pip
 ### install request with pip
 ### install homebrew
+### install bs4
 ### install chromedriver with home-brew
