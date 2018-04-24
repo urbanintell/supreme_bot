@@ -5,18 +5,6 @@ from datetime import datetime
 
 
 class Human(object):
-    users_name = ''
-    users_email = ''
-    size_number = ''
-    cc_year = ''
-    users_telephone = ''
-    address = ''
-    address_number = ''
-    zip_code = ''
-    user_orcer = ''
-    credit_card_number = ''
-    users_credit_card_month = ''
-    users_credit_card_year = ''
 
     def __init__(self):
         self.users_name = 'John Doe'
