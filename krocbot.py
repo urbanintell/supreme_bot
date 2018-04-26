@@ -58,7 +58,7 @@ class KrocBot(object):
 
 
         size = Select(driver.find_element_by_name('s'))
-        size.select_by_value(self.human.size_number)
+        size.select_by_value(self.info.size)
 
         addToCart = driver.find_element_by_xpath("//fieldset[@id='add-remove-buttons']/input")
         addToCart.click()
